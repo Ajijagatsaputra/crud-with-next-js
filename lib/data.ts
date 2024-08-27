@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/prisma";
+import { resolve } from "path";
 
 const ITEMS_PER_PAGE = 5;
 
